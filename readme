@@ -1,0 +1,12 @@
+problem: a lot of good food gets wasted (restaurants, shops, homes). at the same time, people/NGOs need food.
+goal: make a simple system where:
+providers (restaurants, grocery stores, etc.) list surplus food
+receivers (NGOs, community centers, individuals) can find + claim that food
+all the info is stored in a small database (SQL / SQLite)
+we can analyze trends (e.g., which city has the most donations)
+we can use a small app (Streamlit) to see data, run queries, and add new listings
+your data pieces (tables):
+Providers — who gives food
+Receivers — who takes food
+Food_Listings — what food is available now
+Claims — who claimed what food and status (Completed/Pending/Cancelled)
